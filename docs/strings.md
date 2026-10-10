@@ -2,6 +2,7 @@
 So we're gonna need two things, we need to learn how to write control structures using jmp and calling functions
 
 A string is a seq of bytes with a null terminator
+
 We can achieve conditional jump by:
 - First running a comparison instruction `cmp` 
 - Issuing a specific conditional jump instruction
