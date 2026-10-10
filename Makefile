@@ -1,7 +1,9 @@
 AS = nasm
 EMU = qemu-system-x86_64
 
-SRC_DIR = boot
+TOPIC ?= stack
+
+SRC_DIR = boot/$(TOPIC)
 BUILD_DIR = build
 
 SRC = $(SRC_DIR)/boot.asm

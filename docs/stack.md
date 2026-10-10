@@ -29,4 +29,5 @@ After we `push 'C'` sp is at 0x7ffa.
 popping reads C into bx and now sp moves to 0x7ffc or sp = sp + 2.
 we store C in al then print it
 
-doing the same thing results in printing B and A. So the final order is CBA
+doing the same thing results in printing B and A. 
+So the final order is CBA
